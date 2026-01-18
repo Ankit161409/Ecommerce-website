@@ -1,0 +1,30 @@
+.addfont
+{
+   font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+  /* font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal; */
+}
+ 
+ .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+  cursor: pointer; /* show pointer on hover */
+}
+
+.card:hover {
+  transform: scale(1.05); /* slight zoom */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* nice shadow */
+}
+
+
+ .cardy {
+  transition: transform 0.1s ease-in, box-shadow 0.3s ease; /* smooth animation */
+  cursor: pointer; /* show pointer on hover */
+}
+
+.cardy:hover {
+  transform: scale(1.05); /* slight zoom */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0);  
+}
