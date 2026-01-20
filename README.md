@@ -1,4 +1,4 @@
-# E-Commerce Website
+# Trendyx E-Commerce Website
 
 A Ecommerce Website made with React.js Framework.
 
@@ -30,7 +30,7 @@ git clone https://github.com/Ankit161409/Ecommerce-website.git
 Go to the project directory
 
 ```bash
-  cd React_E-Commerce
+  cd Ecommerce-website
 ```
 
 Install dependencies
