@@ -4,6 +4,7 @@ A Ecommerce Website made with React.js Framework.
 
 
 ## Demo
+<img width="277" height="260" alt="image" src="https://github.com/user-attachments/assets/2b13136b-ea26-4cf4-8185-5c05cdf0e67a" />
 
  
 
