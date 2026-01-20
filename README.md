@@ -1,4 +1,4 @@
-# Trendyx E-Commerce Website
+## Trendyx E-Commerce Website
 
 A Ecommerce Website made with React.js Framework.
 
