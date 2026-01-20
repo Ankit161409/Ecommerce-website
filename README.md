@@ -4,6 +4,11 @@ A Ecommerce Website made with React.js Framework.
 
 
 ## Demo
+
+trendyx-commerce-website.vercel.app
+
+## Scan QR for Demo 
+
 <img width="277" height="260" alt="image" src="https://github.com/user-attachments/assets/2b13136b-ea26-4cf4-8185-5c05cdf0e67a" />
 
  
@@ -14,17 +19,12 @@ A Ecommerce Website made with React.js Framework.
 - Fully Responsive
 
 
-## Screenshots
- 
-
-
-
 ## Run Locally
 
 Clone the project
 
 ```bash
-  
+git clone https://github.com/Ankit161409/Ecommerce-website.git  
 ```
 
 Go to the project directory
@@ -44,8 +44,6 @@ Start the server
 ```bash
   npm start
 ```
-
-
 
 ## Tech Stack
 
