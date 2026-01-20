@@ -32,7 +32,7 @@ const Products = () => {
       }
 
       return () => {
-        componentMounted = false;
+        //componentMounted = false;
       };
     };
 
