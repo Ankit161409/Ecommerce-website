@@ -5,7 +5,7 @@ A Ecommerce Website made with React.js Framework.
 
 ## Demo
 
-https://trendyx-commerce-website.vercel.app
+https://trendyx-ecommerce-website.vercel.app
 
 ## Scan QR for Demo 
 
