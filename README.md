@@ -9,9 +9,7 @@ https://trendyx-ecommerce-website.vercel.app
 
 ## Scan QR for Demo 
 
-<img width="277" height="260" alt="image" src="https://github.com/user-attachments/assets/2b13136b-ea26-4cf4-8185-5c05cdf0e67a" />
-
- 
+<img width="282" height="278" alt="image" src="https://github.com/user-attachments/assets/d401bf47-8fb0-462c-8ed0-711e0b952009" />
 
 ## Features
 
