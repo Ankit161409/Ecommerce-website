@@ -109,7 +109,7 @@ const Checkout = () => {
                           type="email"
                           className="form-control"
                           id="email"
-                          placeholder="you@example.com"
+                          placeholder="ankit161210@example.com"
                           required
                         />
                         <div className="invalid-feedback">
@@ -168,7 +168,26 @@ const Checkout = () => {
                         <br />
                         <select className="form-select" id="state" required>
                           <option value="">Choose...</option>
-                          <option>Punjab</option>
+                         <option>Punjab</option>
+                          <option>Haryana</option>
+                          <option>Rajasthan</option>
+                          <option>Uttar Pradesh</option>
+                          <option>Himachal Pradesh</option>
+                          <option>Jammu & Kashmir</option>
+                          <option>Uttarakhand</option>
+                          <option>Delhi</option>
+                          <option>Gujarat</option>
+                          <option>Maharashtra</option>
+                          <option>Madhya Pradesh</option>
+                          <option>Bihar</option>
+                          <option>West Bengal</option>
+                          <option>Tamil Nadu</option>
+                          <option>Karnataka</option>
+                          <option>Kerala</option>
+                          <option>Andhra Pradesh</option>
+                          <option>Telangana</option>
+                          <option>Odisha</option>
+                          <option>Assam</option>
                         </select>
                         <div className="invalid-feedback">
                           Please provide a valid state.
@@ -183,7 +202,7 @@ const Checkout = () => {
                           type="text"
                           className="form-control"
                           id="zip"
-                          placeholder=""
+                          placeholder="ZipCode"
                           required
                         />
                         <div className="invalid-feedback">
