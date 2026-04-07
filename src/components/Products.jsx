@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
-
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import   axios from"axios";
@@ -21,23 +20,6 @@ const Products = () => {
     dispatch(addCart(product));
   };
 
-  // useEffect(() => {
-  //   const getProducts = async () => {
-  //     setLoading(true);
-  //     const response = await fetch("https://fakestoreapi.com/products/");
-  //     if (componentMounted) {
-  //       setData(await response.clone().json());
-  //       setFilter(await response.json());
-  //       setLoading(false);
-  //     }
-
-  //     return () => {
-  //       componentMounted = false;
-  //     };
-  //   };
-
-  //   getProducts();
-  // }, []);
    useEffect(() => {
     let componentMounted = true; // to prevent state update if unmounted
 
@@ -49,7 +31,6 @@ const Products = () => {
            console.log(response.data.products);
           setData(response.data.products);
           setFilter(response.data.products);
-         
         }
       } catch (error) {
         console.error("Error fetching products:", error);
@@ -93,11 +74,13 @@ const Products = () => {
       </>
     );
   };
+  
 
   const filterProduct = (cat) => {
     const updatedList = data.filter((item) => item.category === cat);
     setFilter(updatedList);
   };
+
 
   const ShowProducts = () => {
     return (
@@ -113,7 +96,7 @@ const Products = () => {
             className="btn btn-outline-dark btn-sm m-2 cardy"
             onClick={() => filterProduct("beauty")}
           >
-           Beautry
+           Beauty
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2 cardy"
@@ -134,6 +117,7 @@ const Products = () => {
            Groceries
           </button>
         </div>
+      
 
         {filter.map((product) => {
           return (
@@ -148,7 +132,6 @@ const Products = () => {
                   src={product.thumbnail}
                   alt="Card"
                   style={{ width: "100%", height: "200px", objectFit: "contain" }}
-                   
                 />
                 <div className="card-body">
                   <h5 className="card-title">
@@ -160,8 +143,6 @@ const Products = () => {
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item lead  card-title">$ {product.price}</li>
-                  {/* <li className="list-group-item">Dapibus ac facilisis in</li>
-                    <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body">
                   <Link
@@ -187,6 +168,7 @@ const Products = () => {
       </>
     );
   };
+
   return (
     <>
       <div className="container my-3 py-3">

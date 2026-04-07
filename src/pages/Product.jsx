@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
 
 import { Footer, Navbar } from "../components";
+import axios from "axios";
 
 const Product = () => {
   const { id } = useParams();
@@ -28,10 +29,10 @@ const Product = () => {
       const data = await response.json();
       setProduct(data);
       setLoading(false);
-      const response2 = await fetch(
-        `https://fakestoreapi.com/products/category/${data.category}`
+      const response2 = await axios(
+        `https://dummyjson.com/products`
       );
-      const data2 = await response2.json();
+      const data2 = await response2.data.products;
       setSimilarProducts(data2);
       setLoading2(false);
     };
@@ -133,7 +134,7 @@ const Product = () => {
                 <div key={item.id} className="card mx-4 text-center">
                   <img
                     className="card-img-top p-3"
-                    src={item.image}
+                    src={item.thumbnail}
                     alt="Card"
                     height={300}
                     width={300}
