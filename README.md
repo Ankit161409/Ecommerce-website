@@ -5,13 +5,14 @@ A Ecommerce Website made with React.js Framework.
 
 ## Demo
 
-(https://trendyx-ecommerce-website.vercel.app/)
+https://trendyx-ecommerce-website.vercel.app/
 ## Features
 
 - Easy to integrate with Backend
 - Fully Responsive
 
-
+#Screenshot
+<img width="1897" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/689c4dbd-5b56-4973-af6b-3415ddaffcae" />
 
 ## Run Locally
 
