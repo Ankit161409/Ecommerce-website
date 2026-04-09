@@ -1,21 +1,15 @@
-# E-Commerce Website
+# Trendyx E-Commerce Website
 
 A Ecommerce Website made with React.js Framework.
 
 
 ## Demo
 
-https://reactjs-ecommerce-app.vercel.app/
-
+(https://trendyx-ecommerce-website.vercel.app/)
 ## Features
 
 - Easy to integrate with Backend
 - Fully Responsive
-
-
-## Screenshots
-
-![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
 
 
 
@@ -23,11 +17,7 @@ https://reactjs-ecommerce-app.vercel.app/
 
  
 Go to the project directory
-
-```bash
-  cd React_E-Commerce
-```
-
+ 
 Install dependencies
 
 ```bash
